@@ -370,3 +370,27 @@ form button {
 form button:hover {
   background: #0056b3;
 }
+
+
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, p {
+    text-align: center;
+  }
+}
+
